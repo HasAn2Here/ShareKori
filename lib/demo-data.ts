@@ -16,6 +16,10 @@ export const AREAS: Record<string, Bi> = {
   ambarkhana: { en: "Ambarkhana, Sylhet", bn: "আম্বরখানা, সিলেট" },
   agrabad: { en: "Agrabad, Chattogram", bn: "আগ্রাবাদ, চট্টগ্রাম" },
   sonadanga: { en: "Sonadanga, Khulna", bn: "সোনাডাঙ্গা, খুলনা" },
+  uttara: { en: "Uttara, Dhaka", bn: "উত্তরা, ঢাকা" },
+  cobazar: { en: "CO Bazar, Rangpur", bn: "সিও বাজার, রংপুর" },
+  noyabazar: { en: "Noya Bazar, Sylhet", bn: "নয়াবাজার, সিলেট" },
+  tilargaon: { en: "Tilargaon, Sylhet", bn: "টিলাগাঁও, সিলেট" },
 };
 export const ITEMS: Item[] = [
   { id: "d1", title: { en: "Class 9–10 science textbooks (set)", bn: "নবম-দশম শ্রেণির বিজ্ঞান বই (সেট)" }, area: "mirpur", category: "books", condition: "good", type: "free" },
