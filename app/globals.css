@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body { @apply bg-cream-50 text-forest-900 antialiased; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-forest-700; outline-style: solid; }
+}
